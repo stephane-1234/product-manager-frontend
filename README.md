@@ -1,13 +1,13 @@
-# Product Manager — Front-end React
+# Product Manager - Front-end React
 
 Interface utilisateur pour la gestion de produits, connectée au back-end Node.js.
 
 ## Technologies
 
-- **React** + **Vite** — UI et build
-- **React Router** — navigation
-- **Axios** — appels API
-- **Tailwind CSS** — styles
+- **React** + **Vite** - UI et build
+- **React Router** - navigation
+- **Axios** - appels API
+- **Tailwind CSS** - styles
 
 ## Fonctionnalités
 
