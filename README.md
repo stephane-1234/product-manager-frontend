@@ -1,16 +1,44 @@
-# React + Vite
+# Product Manager — Front-end React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interface utilisateur pour la gestion de produits, connectée au back-end Node.js.
 
-Currently, two official plugins are available:
+## Technologies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **React** + **Vite** — UI et build
+- **React Router** — navigation
+- **Axios** — appels API
+- **Tailwind CSS** — styles
 
-## React Compiler
+## Fonctionnalités
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Liste des produits avec recherche
+- Création de produit avec upload d'image
+- Modification de produit
+- Suppression avec confirmation
+- Preview d'image avant upload
 
-## Expanding the ESLint configuration
+## Prérequis
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Le back-end [product-manager-backend](https://github.com/stephane-1234/product-manager-backend) doit tourner sur `http://localhost:3005`
+
+## Installation
+
+```bash
+git clone https://github.com/stephane-1234/product-manager-frontend.git
+cd product-manager-frontend
+npm install
+```
+
+Crée un fichier `.env` :
+
+```env
+VITE_API_URL=http://localhost:3005/api
+```
+
+Lance le projet :
+
+```bash
+npm run dev
+```
+
+Ouvre `http://localhost:5173`
